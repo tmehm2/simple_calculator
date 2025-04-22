@@ -1,17 +1,14 @@
 def add(a, b):
     return a + b
 
-print(add(4, 4))
 
 def subtract(a, b):
     return a - b
 
-print(subtract(4, 2))
 
 def multiply(a, b):
     return a * b
 
-print(multiply(3, 4))
 
 def divide(a, b):
   if b != 0:
@@ -19,7 +16,6 @@ def divide(a, b):
   else:
     return "Error: Division by zero"
 
-print(divide(6, 0))
 
 def calculator():
     print("Welcome to calculator")
